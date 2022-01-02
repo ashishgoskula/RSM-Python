@@ -27,7 +27,6 @@ elif randNo==2:
 elif randNo=="3":
     comp = "s"
 
- # Asking the user input.
 you = (input("Your turn: Rock[r], Paper[p], Scissors[s]?"))
 a = gameWin(comp, you)
 print(f"Computer chose {comp}") 
@@ -46,10 +45,6 @@ else:
     if answer == 'yes':
       noAnswer = False
       print("You are playing again, " + strName)
-      
-           play_again = input("If you'd like to play again, please type 'yes'")
-     if play_again == "yes"
-         start loop again
      else:
     print("\n\t******ScoreBoard******")
     print(f"\t You: {userScore} | Computer: {computerScore}")
