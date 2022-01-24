@@ -5,5 +5,5 @@ length = int(input('Length of train is: '))
 time = int(input('Time taken by train: '))
 x = speed * time
 print('Distance travelled by the train is: ', x)
-bridgelength = x - length
+bridge_length = x - length
 print('Total length of bridge is: ', bridgelength)
